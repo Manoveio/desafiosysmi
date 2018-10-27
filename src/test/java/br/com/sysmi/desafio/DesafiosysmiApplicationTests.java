@@ -1,16 +1,18 @@
 package br.com.sysmi.desafio;
 
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DesafioApplicationTests {
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class DesafiosysmiApplicationTests {
 
     @Test
     public void contextLoads() {
     }
-
 }

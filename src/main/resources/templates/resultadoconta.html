@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resultado da Conta do Array</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+        <h1>Resultado da Conta do Array</h1>
+        <label>Vetor ordenado:</label>
+        <div th:text="${resultado.integerList}" />
+        <br>
+        <label>Parâmetro utilizado:</label>
+        <div th:text="${resultado.param}" />
+        <br>
+        <br>
+        <label>Total de elementos menores que o parâmetro:</label>
+        <div th:text="${resultado.result}" />
+        <br>
+        <div><a href="/">Continuar</a></div>
+</body>
+</html>

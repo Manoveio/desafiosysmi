@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Conta Números</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Conta Números</h1>
+<form action="#" th:action="@{/contanumeros}" th:object="${resultado}"  method="post">
+
+    <h2>Insira o vetor e o parâmetro (menor que)::</h2>
+    <p>Vetor  ->  &ensp;<input type="text" th:field="*{integerList}" /></p>
+    <p>Parâmetro -> <input type="text" th:field="*{param}" /></p>
+
+    <p>
+        <input type="submit" value=" Efetua Conta " />
+    </p>
+</form>
+
+</body>
+</html>

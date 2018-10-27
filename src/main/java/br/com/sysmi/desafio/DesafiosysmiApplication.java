@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesafioApplication {
+public class DesafiosysmiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DesafioApplication.class, args);
+        SpringApplication.run(DesafiosysmiApplication.class, args);
     }
 }
